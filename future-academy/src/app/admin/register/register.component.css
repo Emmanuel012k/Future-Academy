@@ -27,6 +27,7 @@ body {
 	color: rgb(82, 113, 255);
 	 padding: 10px 10px;
   border: 1px solid #c7c7c7;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 h1 {
@@ -92,6 +93,7 @@ button.ghost {
 input {
 	background-color: #eee;
 	border: none;
+	border-color: #888888;
 	padding: 18px 40px;
 	margin: 19px 20px;
 	width: 60%;
