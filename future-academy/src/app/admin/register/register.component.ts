@@ -8,5 +8,11 @@ import {MatIconModule} from '@angular/material/icon';
   
 })
 export class RegisterComponent {
+   showInput: boolean = true;
+  inputValue: string = '';
 
+  onDropdownChange(event: Event) {
+    const selectedValue = (event.target as HTMLSelectElement).value;
+    this.showInput = selectedValue === 'show';
+  }
 }

@@ -12,24 +12,35 @@
             <div class="overlay-panel overlay-right">
                 <img class="logo" src="https://i.postimg.cc/4NRXcFTH/course-logos-transparent.png" alt="Evento"
                     width="150px" height="150px">
-                <h4 class="head-logo">Hi! Welcome to Course-Carrer</h4>
+                <h4 class="head-logo">Log in to your Future account</h4>
                 <form>
-                    <input type="email" placeholder="Email" />
-                    <input type="password" placeholder="Password" />
-
+                    <p>
+                        <mat-form-field appearance="outline">
+                            <mat-label>Fill form field</mat-label>
+                            <input matInput placeholder="Email">      
+                        </mat-form-field>
+                    </p>
+                    <p>
+                        <mat-form-field appearance="outline">
+                            <mat-label>Fill form field</mat-label>
+                            <input matInput placeholder="Password">                                                   
+                        </mat-form-field>
+                    </p>
+            
+                  
+                    <button type="submit" routerLink="/venues">Login</button>
                     <br>
                     <br>
-                    <button type="submit" routerLink="/">Login</button>
+                    <p class="passfor"><u>Forgot Password ?</u> </p>
                 </form>
 
                 <br>
                 <div class="flop">
                     <h4 class="head-log">Don't have account? </h4>
-                    <h3 class="head-logr" routerLink="/register">Register</h3>
+                    <h3 class="head-logr" routerLink="/register"> <u>Register</u></h3>
                 </div>
 
                 <!-- <li><a class="dropdown-item" routerLink="/dashboard">Blog Post</a></li> -->
-
             </div>
         </div>
     </div>

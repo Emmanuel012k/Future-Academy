@@ -25,13 +25,25 @@ h2 {
 	text-align: center;
 }
 
-p {
+
+.passfor{
+	 
+    font-size: samller;
+    color: #222;
+	/* margin-top: -1px; */
+	padding-left: 120px;
+	 
+}
+
+
+
+/* p {
 	font-size: 14px;
 	font-weight: 100;
 	line-height: 20px;
 	letter-spacing: 0.5px;
 	margin: 20px 0 30px;
-}
+} */
 
 span {
 	font-size: 12px;
@@ -45,18 +57,18 @@ a {
 }
 
 button {
-	border-radius: 5px;
-	border: 1px solid  #387eff;
-	background-color: #387eff;
+	border-radius: 2px;
+	border: 1px solid #2189ff;
+	background-color: #2189ff;
 	color: #FFFFFF;
 	font-size: 12px;
-	font-weight: bold;
+	font-weight: 800;
 	padding: 12px 110px;
 	cursor: pointer;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
-	margin-top: 10px;
+	margin-top: -5px;
 }
 
 button:active {
@@ -76,15 +88,33 @@ button.ghost {
 	padding-right: 270px;
 }
 
-input {
-	background-color: #eee;
-	border: none;
-	padding: 15px 19px;
-	margin: 15px 10px;
-	width: 60%;
-    margin-top: 15px;
-	border-radius: 3px;
+input{
+	/* background-color: #3d3d3d; */
+	border-color: #000000;
+	/* padding: 15px 19px; */
+	/* margin: 15px 10px; */
+	width: 100px;
+    /* margin-top: -5px; */
+	border-radius: 2px;
+	border: 2px solid red;
 }
+
+mat-form-field{
+	/* background-color: #3d3d3d; */
+	border-color: #000000;
+	/* padding: 15px 19px; */
+	/* margin: 15px 10px; */
+	width: 100%;
+    margin-top: -5px;
+	border-radius: 2px;
+}
+
+u{
+	color: #003cff;
+	cursor: pointer;
+	font-weight: 600;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -234,30 +264,9 @@ input {
 	width: 40px;
 }
 
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
+ 
 
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
-}
+ 
 
 .head-logo{
 	color:#535353;
