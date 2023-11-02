@@ -11,7 +11,8 @@ import { RegisterComponent } from './admin/register/register.component';
 import {MatSelectModule} from '@angular/material/select';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
-
+import {MatDividerModule} from '@angular/material/divider';
+import {MatButtonModule} from '@angular/material/button';
  
 import {MatInputModule} from '@angular/material/input';
 import { DashboardComponent } from './Dashboard/dashboard/dashboard.component';
@@ -39,7 +40,7 @@ import { UpdateProfileComponent } from './fresher/update-profile/update-profile.
     MatFormFieldModule, MatSelectModule,
     FormsModule,MatInputModule,
     MatToolbarModule,MatSidenavModule,
-    MatTabsModule
+    MatTabsModule,MatButtonModule, MatDividerModule,
     
   ],
   providers: [],
