@@ -131,10 +131,131 @@
 
 
         <mat-tab label="Personal details">Personal details</mat-tab>
-        <mat-tab label="Education">Education</mat-tab>
+
+        <mat-tab label="Education">
+            <br>
+             <form>
+                <div mat-dialog-content class="content">
+                    <div class="row">
+
+                        <!-- <mat-form-field class="name-f1" appearance="outline">
+                            <mat-label>First Name</mat-label>
+                            <input class="inpu" matInput type="text" placeholder="Marcos">
+                        </mat-form-field> -->
+
+                        <div mat-dialog-content class="content">
+                           
+                             <div class="addr">
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>First Name
+                                    </mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Website</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+                            </div>
+                          
+
+                            <div class="addr">
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Last Name
+                                    </mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Website</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+                            </div>
+
+                            <div class="addr">
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Landmark</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Landmark">
+                                </mat-form-field>
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>City</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="city">
+                                </mat-form-field>
+                            </div>
+                            <div class="addr">
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>state</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="state">
+                                </mat-form-field>
+
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>ZipCode</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="zipcode">
+                                </mat-form-field>
+                            </div>
+                            <div class="addr">
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Country</mat-label>
+                                    <input matInput placeholder="country"
+                                        type="text">
+                                </mat-form-field>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div mat-dialog-actions class="action">
+                    <button mat-raised-button color="primary" type="submit">Save</button>
+                </div>
+            </form>
+
+
+        </mat-tab>
+
         <mat-tab label="Skills">Skills</mat-tab>
-        <mat-tab label="Resume Upload">Resume Upload</mat-tab>
-        <mat-tab label="Post Project">Post Project</mat-tab>
+        <mat-tab label="Resume Upload">
+           <br>
+            <div class="resume-upload">
+             <h3>Resume</h3>
+             <p>Resume is the most important document recruiters look for, Recruiters generally do not look at profiles without resumes.</p>
+             <div class="div-resume">
+                  <button class="btn-upload" mat-raised-button color="primary" appearance="outline">Upload Resume</button>
+                  <br>
+                  <p class="p-description">Supported Formats: doc, docx, rtf, pdf, upto 2 MB</p>
+             </div>
+             <br>
+             <br>
+             <div class="resume-create">
+                <p>	<mat-icon class="icon">assignment</mat-icon></p>
+                <div>
+                    <h3 class="headresume">Don’t have a resume yet?</h3>
+                    <p class="resume-p">Create a job-winning resume with our simple resume builder</p>
+                    <h3 class="cr-re">Create free resume</h3>
+                </div>
+             </div>
+           </div>
+        </mat-tab>
+
+        <mat-tab label="Post Project">
+            <br>
+          
+        </mat-tab>
     </mat-tab-group>
 
 </div>

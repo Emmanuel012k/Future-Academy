@@ -13,7 +13,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
- 
+ import {MatTooltipModule} from '@angular/material/tooltip';
+
 import {MatInputModule} from '@angular/material/input';
 import { DashboardComponent } from './Dashboard/dashboard/dashboard.component';
 import { SidebarComponent } from './Dashboard/sidebar/sidebar/sidebar.component';
@@ -41,6 +42,7 @@ import { UpdateProfileComponent } from './fresher/update-profile/update-profile.
     FormsModule,MatInputModule,
     MatToolbarModule,MatSidenavModule,
     MatTabsModule,MatButtonModule, MatDividerModule,
+    MatTooltipModule
     
   ],
   providers: [],
