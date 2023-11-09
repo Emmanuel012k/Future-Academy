@@ -1,11 +1,27 @@
+section{
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+}
+.image-1 {
+  background-image: url("https://i.postimg.cc/ZK2trwtH/magicpattern-sa-RKn-THBEh-U-unsplash.jpg")
+}
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800'); */
 
 * {
 	box-sizing: border-box;
 }
 
-body {
+/* body {
 	background: #f6f5f7;
 	display: flex;
 	justify-content: center;
@@ -14,7 +30,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
 	margin: -20px 0 50px;
-}
+} */
 
 .passfor{
 	 
@@ -238,7 +254,7 @@ mat-form-field{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	padding: 0 40px;
+	/* padding: 0 20px; */
 	text-align: center;
 	top: 15px;
 	height: 100%;
@@ -279,30 +295,6 @@ mat-form-field{
 	width: 40px;
 }
 
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
-
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
-}
 
 .head-logo{
 	color:#000000;
@@ -332,3 +324,5 @@ footer a {
 .flop{
     display: flex;
 }
+
+ 

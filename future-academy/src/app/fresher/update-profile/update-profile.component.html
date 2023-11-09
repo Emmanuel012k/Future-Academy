@@ -1,22 +1,102 @@
 <div class="tab-fields">
-
+ 
     <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start">
 
-        <mat-tab label="Update profile"><br>
-
+        <mat-tab label="Personal Profile"><br>
+     
             <!-- Fresher Start -->
             <form>
-                <div mat-dialog-content class="content">
-                    <div class="row">
+                  <!-- <div mat-dialog-content class="content"> -->
+                    <div class="row">                      
+                        <!-- <mat-divider></mat-divider> -->
+                        <mat-tab-group>
+                            <mat-tab label="Basic Details">
+                                <div mat-dialog-content class="content">
+                                <div class="addr">
+                                <mat-form-field class="course-duration"
+                                    appearance="outline">
+                                    <mat-label>Name
+                                    </mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
 
-                        <!-- <mat-form-field class="name-f1" appearance="outline">
-                            <mat-label>First Name</mat-label>
-                            <input class="inpu" matInput type="text" placeholder="Marcos">
-                        </mat-form-field> -->
 
-                        <div mat-dialog-content class="content">
-                           
-                             <div class="addr">
+                                 <!-- <h3 class="head-Ux">UI/UX</h3><br> -->
+                                <div class="course-duration">                                    
+                                   
+                                     <mat-radio-button class="example-margin" value="after">
+        Fresher</mat-radio-button>
+        <mat-radio-button class="example-no" value="after">
+        Experience</mat-radio-button>
+         
+                                     
+                                </div>
+                            </div>
+                          
+
+                            <div class="addr">
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Total Experience
+                                    </mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Website</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+                            </div>
+
+                            <div class="addr">
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Current Salary</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Landmark">
+                                </mat-form-field>
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Current Location</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="city">
+                                </mat-form-field>
+                            </div>
+                            <div class="addr">
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Mobile number</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="state">
+                                </mat-form-field>
+
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Email address</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="zipcode">
+                                </mat-form-field>
+                            </div>
+                            <div class="addr">
+                                <mat-form-field class="name-f2"
+                                    appearance="outline">
+                                    <mat-label>Country</mat-label>
+                                    <input matInput placeholder="country"
+                                        type="text">
+                                </mat-form-field>
+                            </div>
+                                </div> 
+                            </mat-tab>
+                
+                             
+                            <mat-tab label="Personal details">
+                                <div mat-dialog-content class="content">
+                                    <div class="use">
+                                          <div class="addr">
                                 <mat-form-field class="name-f2"
                                     appearance="outline">
                                     <mat-label>First Name
@@ -88,9 +168,17 @@
                                         type="text">
                                 </mat-form-field>
                             </div>
-                        </div>
+                                    </div>
+                                </div>
+                            </mat-tab>                                
+                        </mat-tab-group>                
                     </div>
-                </div>
+             
+                
+                
+                
+                <!-- </div> -->
+
                 <div mat-dialog-actions class="action">
                     <button mat-raised-button color="primary" type="submit">Save</button>
                 </div>
@@ -130,33 +218,144 @@
 
 
 
-        <mat-tab label="Personal details">Personal details</mat-tab>
+        <mat-tab label="Employment">
+             <div mat-dialog-content class="content">
+                 <div class="addr">
+                   <div class="employemt-style">
+                      <br>
+            <h4>
+                Is this your current employment?
+                <br>
+        <mat-radio-button class="example-margin" value="after">
+        Yes</mat-radio-button>                    
+        <mat-radio-button class="example-no" value="after">
+        No</mat-radio-button>
+
+            </h4>
+            </div>
+             <div class="employemt-style">
+             <br>
+            <h4>
+               Employment type
+                <br>
+        <mat-radio-button class="example-margin" value="after">
+        Yes</mat-radio-button>
+        <mat-radio-button class="example-no" value="after">
+        No</mat-radio-button>
+            </h4>
+          </div>
+      </div> 
+<br>
+<h4 class="heading-employement">Total experience</h4>
+   <div class="employemt-style">
+
+      <div class="addr">       
+        <mat-form-field class="drpdwn">
+  <mat-label>Years</mat-label>
+  <mat-select class="" disableRipple>
+    <mat-option value="1">0 Years</mat-option>
+    <mat-option value="2">Option 2</mat-option>
+    <mat-option value="3">Option 3</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field class="drpdwn">
+  <mat-label>Months</mat-label>
+  <mat-select disableRipple>
+    <mat-option value="1">0 Months</mat-option>
+    <mat-option value="2">Option 2</mat-option>
+    <mat-option value="3">Option 3</mat-option>
+  </mat-select>
+</mat-form-field>
+
+      </div>          
+        </div>
+         </div>
+
+         <h4 class="heading-employement">Joining Date</h4>
+   <div class="employemt-style">
+
+      <div class="addr">       
+        <mat-form-field>
+  <mat-label>Select Year</mat-label>
+  <mat-select disableRipple>
+    <mat-option value="1">0 Years</mat-option>
+    <mat-option value="2">Option 2</mat-option>
+    <mat-option value="3">Option 3</mat-option>
+  </mat-select>
+</mat-form-field>
+<mat-form-field>
+  <mat-label>Select Month</mat-label>
+  <mat-select disableRipple>
+    <mat-option value="1">0 Months</mat-option>
+    <mat-option value="2">Option 2</mat-option>
+    <mat-option value="3">Option 3</mat-option>
+  </mat-select>
+</mat-form-field>
+   
+      </div>  
+      
+      
+        </div>
+        <div class="addr">
+        <mat-form-field class="name-employe"
+            appearance="outline">
+            <mat-label>Current company name
+            </mat-label>
+            <input matInput type="text"
+                placeholder="Marcos">
+        </mat-form-field>
+
+        <mat-form-field class="name-employe"
+            appearance="outline">
+            <mat-label>Current designation</mat-label>
+            <input matInput type="text"
+                placeholder="Marcos">
+        </mat-form-field>
+ 
+        </div>
+
+          <div class="add-employemt">
+        <mat-form-field class="name-employe"
+            appearance="outline">
+            <mat-label>Skills used
+            </mat-label>
+            <input matInput type="text"
+                placeholder="Marcos">
+        </mat-form-field>
+
+        <mat-form-field class="name-employe"
+            appearance="outline">
+            <mat-label>Current designation</mat-label>
+            <input matInput type="text"
+                placeholder="Marcos">
+        </mat-form-field>
+ 
+        </div>
+                               
+                          
+        </mat-tab>
+        
+        <!-- Employment End -->
 
         <mat-tab label="Education">
             <br>
              <form>
                 <div mat-dialog-content class="content">
-                    <div class="row">
-
-                        <!-- <mat-form-field class="name-f1" appearance="outline">
-                            <mat-label>First Name</mat-label>
-                            <input class="inpu" matInput type="text" placeholder="Marcos">
-                        </mat-form-field> -->
-
-                        <div mat-dialog-content class="content">
-                           
+                    <div class="row">   
+                        <div mat-dialog-content class="content">                           
                              <div class="addr">
-                                <mat-form-field class="name-f2"
+                                <mat-form-field class="course-duration"
                                     appearance="outline">
-                                    <mat-label>First Name
+                                    <mat-label>Education
                                     </mat-label>
                                     <input matInput type="text"
                                         placeholder="Marcos">
                                 </mat-form-field>
 
-                                <mat-form-field class="name-f2"
+                                <mat-form-field class="course-duration"
                                     appearance="outline">
-                                    <mat-label>Website</mat-label>
+                                    <mat-label>University/Institute</mat-label>
                                     <input matInput type="text"
                                         placeholder="Marcos">
                                 </mat-form-field>
@@ -164,59 +363,72 @@
                           
 
                             <div class="addr">
-                                <mat-form-field class="name-f2"
+                                <mat-form-field class="course-duration"
                                     appearance="outline">
-                                    <mat-label>Last Name
+                                    <mat-label>Course
                                     </mat-label>
                                     <input matInput type="text"
                                         placeholder="Marcos">
                                 </mat-form-field>
 
-                                <mat-form-field class="name-f2"
+                                <mat-form-field class="course-duration"
                                     appearance="outline">
-                                    <mat-label>Website</mat-label>
+                                    <mat-label>Specialization
+</mat-label>
                                     <input matInput type="text"
                                         placeholder="Marcos">
                                 </mat-form-field>
                             </div>
 
-                            <div class="addr">
-                                <mat-form-field class="name-f2"
-                                    appearance="outline">
-                                    <mat-label>Landmark</mat-label>
-                                    <input matInput type="text"
-                                        placeholder="Landmark">
-                                </mat-form-field>
-                                <mat-form-field class="name-f2"
-                                    appearance="outline">
-                                    <mat-label>City</mat-label>
-                                    <input matInput type="text"
-                                        placeholder="city">
-                                </mat-form-field>
+                            <div class="addr">                                
+                                  <div class="education-radio">
+             <br>
+            <h4>
+               Employment type
+                <br>
+        <mat-radio-button class="example-margin" value="after">
+        Part time</mat-radio-button>
+        <mat-radio-button class="example-no" value="after">
+        Full time</mat-radio-button>
+         <mat-radio-button class="example-no" value="after">
+        Correspondence/Distance learning</mat-radio-button>
+            </h4>
+          </div>
+                                
                             </div>
+                             <h4> Course duration</h4>
                             <div class="addr">
-                                <mat-form-field class="name-f2"
+                               
+                                <mat-form-field class="course-duration"
                                     appearance="outline">
-                                    <mat-label>state</mat-label>
-                                    <input matInput type="text"
-                                        placeholder="state">
-                                </mat-form-field>
+                                    <mat-label>Starting year
 
-                                <mat-form-field class="name-f2"
-                                    appearance="outline">
-                                    <mat-label>ZipCode</mat-label>
+                                    </mat-label>
                                     <input matInput type="text"
-                                        placeholder="zipcode">
+                                        placeholder="Marcos">
                                 </mat-form-field>
-                            </div>
-                            <div class="addr">
-                                <mat-form-field class="name-f2"
+                                <mat-form-field class="course-duration"
                                     appearance="outline">
-                                    <mat-label>Country</mat-label>
-                                    <input matInput placeholder="country"
-                                        type="text">
+                                    <mat-label>Ending year
+
+                                    </mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
                                 </mat-form-field>
+                               
                             </div>
+                              <div class="addr">
+                               
+                                <mat-form-field class="course-duration"
+                                    appearance="outline">
+                                    <mat-label>Grading system
+
+                                    </mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+                              </div>
+                             
                         </div>
                     </div>
                 </div>
@@ -228,7 +440,59 @@
 
         </mat-tab>
 
-        <mat-tab label="Skills">Skills</mat-tab>
+        <mat-tab label="Skill Type">
+            Skill Type
+            <br><br>
+            <mat-card>
+  <mat-card-content>ITSkills</mat-card-content>
+  <br>
+  <div class="ItSkill-Crd">
+    <p>
+        Skills
+    </p>
+    <p>
+        Skills
+    </p>
+    <p>
+        Skills
+    </p>
+    <p>
+        Skills
+    </p>
+    <mat-divider></mat-divider>
+    
+  </div>
+  <br>
+   <div class="ItSkill-Crd">
+    <p>
+        Skills
+    </p>
+    <p>
+        Skills
+    </p>
+    <p>
+        Skills
+    </p>
+    <p>
+        Skills
+    </p>
+    <mat-divider></mat-divider>
+    
+  </div>
+</mat-card>
+
+        </mat-tab>
+
+
+
+
+
+
+
+
+
+
+
         <mat-tab label="Resume Upload">
            <br>
             <div class="resume-upload">
@@ -252,10 +516,114 @@
            </div>
         </mat-tab>
 
-        <mat-tab label="Post Project">
-            <br>
-          
-        </mat-tab>
+         <mat-tab label="Add Project">
+                <div mat-dialog-content class="content">
+                    <div class="row">
+                          <div>
+                              <form>
+                                 <br>
+            <h4>
+               Employment type
+                <br>
+        <mat-radio-button class="example-margin" value="after">
+        Inprogress</mat-radio-button>
+        <mat-radio-button class="example-no" value="after">
+        Finished</mat-radio-button>
+        
+            </h4>
+                <div mat-dialog-content class="content">
+                    <div class="row">   
+                        <div mat-dialog-content class="content">                           
+                             <div class="addr">
+                                <mat-form-field class="course-duration"
+                                    appearance="outline">
+                                    <mat-label>Project title
+                                    </mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+
+                                <mat-form-field class="course-duration"
+                                    appearance="outline">
+                                    <mat-label>Tag this project</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+                            </div>
+                          
+
+                            <div class="addr">
+                                <mat-form-field class="course-duration"
+                                    appearance="outline">
+                                    <mat-label>Client
+                                    </mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+
+                                <mat-form-field class="course-duration"
+                                    appearance="outline">
+                                    <mat-label>Project location
+</mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+                            </div>
+
+                            <div class="addr">                                
+                                  <div class="education-radio">
+            
+          </div>
+                                
+                            </div>
+                            
+                            <div class="addr">
+                               
+                                <mat-form-field class="course-duration"
+                                    appearance="outline">
+                                    <mat-label>Worked from
+
+                                    </mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+                                <mat-form-field class="course-duration"
+                                    appearance="outline">
+                                    <mat-label>Ending year
+
+                                    </mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+                               
+                            </div>
+                              <div class="addr">
+                               
+                                <mat-form-field class="course-duration"
+                                    appearance="outline">
+                                    <mat-label>Skills used
+
+                                    </mat-label>
+                                    <input matInput type="text"
+                                        placeholder="Marcos">
+                                </mat-form-field>
+                                <br>
+                              </div>
+                               <h4 class="project-btn"> Add more details</h4>
+<br><br>
+                             
+                        </div>
+                    </div>
+                </div>
+                <!-- <div mat-dialog-actions class="action">
+                    <button mat-raised-button color="primary" type="submit">Save</button>
+                </div> -->
+            </form>
+                                
+                        </div>                         
+                    </div> 
+                </div>
+                </mat-tab> 
     </mat-tab-group>
 
 </div>

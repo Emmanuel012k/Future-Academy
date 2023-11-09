@@ -15,18 +15,31 @@
  }
 
 .addr{
-     display: flex;
+     display: flex; 
     gap: 10px; 
     border-radius: 2px;
 }
+
+.add-employemt{
+ display: flex;
+    gap: 10px; 
+    margin-top: -40px;
+     
+}
  
+.heading-employement{
+    margin-left: 50px;
+}
+.drpdwn{
+    width: 100%;
+}
 /* .inpu{
     height: 20px;
 }
   */
 
  .mat-form-field{
-    width: 90%;
+    width: 40%;
     border-radius: 2px;
     /* height: 200px; */
     /* padding-right: 100%; */
@@ -44,15 +57,35 @@
  }
 
 .name-f2{
-   width: 50%;
-   border-radius: 2px;
+   width: 40%;
+   /* border-radius: 2px; */
  }
+
+.course-duration{
+  width: 40%;
+  
+}
+
+.project-btn{
+  color: rgb(25, 190, 255);
+  cursor: pointer;
+}
 
  .name-f3{
    width: 50%;
    border-radius: 2px;
  }
 
+
+ .ItSkill-Crd{
+  display: flex;
+  gap: 190px;
+  margin-left: 120px;
+ }
+
+ mat-card{
+  width: 70%;
+ }
  /* .mat-dialog-content{
    padding: 100%;
   } */
@@ -293,3 +326,29 @@
     margin-top: -60px;
     cursor: pointer;
  }
+
+ .basic-type{
+    color: #000;
+ }
+
+ .employemt-style{
+ margin-left: 50px;
+ display: flex;
+ }
+
+ .education-radio{
+  
+ margin-left: 10px;
+ display: flex;
+ }
+
+ .example-no{
+    margin-left: 70px;
+ }
+
+ .name-employe{
+    width: 40%;
+    gap: 50px;
+ }
+
+ 
